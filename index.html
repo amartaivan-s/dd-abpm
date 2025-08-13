@@ -1,36 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ABM Project Showcase</title>
-  <style>
-    body { font-family: sans-serif; padding: 2rem; }
-    img, video { max-width: 100%; height: auto; }
-    .section { margin-bottom: 2rem; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data-Driven Framework for Agent-Based Pedestrian Modeling and Simulation</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.6;
+  }
+  h1 {
+    color: #333;
+  }
+  .project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin: 15px 0;
+  }
+  .section-title {
+    margin-top: 30px;
+    color: #444;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 5px;
+  }
+  a {
+    color: #007acc;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .details-link {
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: bold;
+  }
+</style>
 </head>
 <body>
 
-  <h1>🚶 Agent-Based Pedestrian Simulation</h1>
+<h1>🚀 Data-Driven Framework for Agent-Based Pedestrian Modeling and Simulation</h1>
 
-  <div class="section">
-    <p>This project demonstrates a pedestrian dynamics model using agent-based simulation with dynamic velocity and collision avoidance. Below is a sample animation:</p>
-    <img src="assets/animations/movement.gif" alt="Pedestrian Simulation">
-  </div>
+<p><strong>Overview:</strong><br>
+This project presents a <strong>data-driven framework</strong for calibrating and validating <strong>heterogeneous agent-based pedestrian models</strong using real-world multi-agent trajectory data.  
+By integrating <em>Particle Swarm Optimization (PSO)</em> with a <em>deep learning surrogate model</em (TabNet), the framework accelerates parameter calibration while maintaining accuracy in reproducing pedestrian behaviors in various environments.</p>
 
-  <div class="section">
-    <h2>🔬 Key Features</h2>
-    <ul>
-      <li>Heterogeneous agent behavior</li>
-      <li>Wall and obstacle awareness</li>
-      <li>Machine learning-based velocity prediction (TabNet)</li>
-    </ul>
-  </div>
+<img src="dd-abpm-visual.png" alt="Framework Overview Diagram" class="project-image">
 
-  <div class="section">
-    <h2>📂 Code Repository</h2>
-    <p>Full code available on <a href="https://github.com/YOUR_USERNAME/YOUR_REPO" target="_blank">GitHub</a>.</p>
-  </div>
+<h2 class="section-title">🔍 Output & Results</h2>
+<p>
+The framework enables:
+<ul>
+  <li>Efficient calibration of multiple agent parameters from real-world data.</li>
+  <li>Simulation outputs that closely match actual pedestrian velocities and trajectories.</li>
+  <li>Scalability for testing different environment layouts and crowd densities.</li>
+</ul>
+Validation results showed strong alignment between simulated and observed pedestrian flow patterns, reducing calibration runtime significantly compared to traditional brute-force methods.
+</p>
+
+<h2 class="section-title">📄 Details & Resources</h2>
+<p>
+For full methodology, dataset details, and implementation code, please visit:
+</p>
+<a href="https://github.com/askimon/dd-abpm" target="_blank" class="details-link">📂 View Project on GitHub</a>  
+<br>
+<a href="https://arxiv.org/abs/your-paper-id" target="_blank" class="details-link">📄 Read the Preprint</a>
 
 </body>
 </html>
