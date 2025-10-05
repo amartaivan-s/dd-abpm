@@ -15,6 +15,10 @@
   h1 {
     color: #333;
   }
+  .gif-container {
+      text-align: center;
+      margin: 2em 0;
+    }
   .project-image {
     width: 100%;
     height: auto;
@@ -51,7 +55,10 @@
 This project presents a <strong>data-driven computational framework</strong> for calibrating and validating <strong>heterogeneous agent-based pedestrian models</strong> using real-world multi-agent trajectory data.  
 By integrating <em>Particle Swarm Optimization (PSO)</em> with a <em>deep learning surrogate model</em> (TabNet), the framework accelerates parameter calibration while maintaining accuracy in reproducing pedestrian behaviors in various environments.</p>
 
-<img src="simulation_steps.png" alt="Framework Overview Diagram" class="project-image">
+<div class="gif-container">
+    <img src="simulation_steps.png" alt="Framework Overview Diagram" class="project-image">
+    <p><small>Figure: Snapshots of pedestrian simulation at different steps.</small></p>
+  </div>
 
 
 <h2 class="section-title">🔍 Output & Results</h2>
@@ -70,6 +77,13 @@ Validation results showed strong alignment between simulated and observed pedest
 For full methodology, and dataset details, please visit:
 </p>
 <a href="https://doi.org/10.1109/access.2025.3582778" target="_blank" class="details-link">📄 Read the Full Paper</a>
+
+<h2 class="section-title">How to Cite</h2>
+<p class="meta">
+S. Amartaivan and H. Morita,
+<i>Efficient Calibration of Heterogeneous Agent-Based Pedestrian Model Using PSO With Deep Learning Surrogates</i>,
+IEEE Access, vol. 13, pp. 109185-109199, 2025, doi: 10.1109/ACCESS.2025.3582778.
+</p>
 
 <footer style="margin-top: 3em; font-size: 0.85em; color: #666;">
     Last updated: July 2025 • Author: Sanjjamts Amartaivan
